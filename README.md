@@ -26,16 +26,3 @@ PromptEval/
 - **Markdown** for documenting best practices and prompt iterations
 
 ---
-
-## Tech Stack:
-- Python (prompt testing + CSV generation)
-
-- OpenAI API (ChatGPT integration)
-
-- Power BI (data visualization & dashboarding)
-
-- Git (version control)
-
-- Markdown/Google Docs (documentation)
-
-
