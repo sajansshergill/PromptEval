@@ -7,14 +7,28 @@ PromptEval is a lightweight evaluation framework for testing and documenting the
 
 ## 📁 Project Structure
 PromptEval/
-├── prompts/ # JSON prompt templates
-├── results/ # Output and scoring CSVs
-├── scripts/ # Python execution scripts
-├── powerbi/ # Power BI dashboard file
-├── docs/ # Markdown documentation
-├── .gitignore
-├── README.md
-└── requirements.txt
+├── prompts/                         # Prompt templates in JSON format
+│   ├── summarization.json
+│   └── code_generation.json
+│
+├── results/                         # AI outputs and evaluation scores
+│   ├── prompt_outputs.csv           # Raw AI-generated outputs
+│   └── prompt_scores_1000.csv       # ✅ Your 1000-record scoring dataset
+│
+├── powerbi/                         # Power BI dashboard file(s)
+│   └── PromptEvalDashboard.pbix     # Power BI file (link data to prompt_scores_1000.csv)
+│
+├── scripts/                         # Python scripts for testing prompts
+│   └── run_prompt_tests.py
+│
+├── docs/                            # Markdown documentation
+│   ├── prompt_guidelines.md
+│   └── prompt_improvement_log.md
+│
+├── README.md                        # Project overview and setup instructions
+├── requirements.txt                 # Python dependencies
+└── .gitignore                       # Ignore .pyc, API keys, etc.
+
 
 ---
 
