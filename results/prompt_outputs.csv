@@ -1,0 +1,5 @@
+task_id,tool,task_type,prompt,output
+sum_001,ChatGPT,summarization,"Summarize this news article in 3 bullet points: 'OpenAI released GPT-4, which demonstrates remarkable language and reasoning capabilities. Developers are using it in various domains including law, education, and coding.'","- OpenAI released GPT-4, a language model with impressive language and reasoning capabilities
+- Developers are utilizing GPT-4 in areas such as law, education, and coding
+- The release of GPT-4 marks a significant advancement in AI technology and its potential applications across different domains."
+sum_002,Copilot,summarization,"Summarize this update in 3 concise lines: 'Microsoft's Copilot tool now integrates with Excel, helping users write formulas, create charts, and automate tasks more easily.'",[Simulated Copilot Output]

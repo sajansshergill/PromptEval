@@ -1,0 +1,15 @@
+[
+    {
+      "task_id": "sum_001",
+      "tool": "ChatGPT",
+      "task_type": "summarization",
+      "prompt_text": "Summarize this news article in 3 bullet points: 'OpenAI released GPT-4, which demonstrates remarkable language and reasoning capabilities. Developers are using it in various domains including law, education, and coding.'"
+    },
+    {
+      "task_id": "sum_002",
+      "tool": "Copilot",
+      "task_type": "summarization",
+      "prompt_text": "Summarize this update in 3 concise lines: 'Microsoft's Copilot tool now integrates with Excel, helping users write formulas, create charts, and automate tasks more easily.'"
+    }
+  ]
+  
